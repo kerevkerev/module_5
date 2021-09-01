@@ -6,53 +6,52 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/style.css">
-
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
     <title>Моя страница</title>
 </head>
 
 <body>
-    
+
     <header class="header">
-        <div class="header__inner">
-            <div class="logo"><img src="./images/logo.jpg" alt="водолаз"></div>
-            <nav>
-                <a href="">Главная</a>
-                <a href="">Обо мне</a>
-                <a href="">Контакты</a>
-            </nav>
+        <div class="container">
+            <div class="header__inner">
+                <div class="logo"><img src="./images/logo.jpg" alt="водолаз"></div>
+                <nav>
+                    <button class="button"><a href="#">Главная</a></button>
+                    <button class="button"><a href="./pages/about.html">Обо мне</a></button>
+                    <button class="button"><a href="./pages/contacts.html">Контакты</a></button>
+                </nav>
+            </div>
         </div>
     </header>
     <!-- header -->
-
     <main class="main">
-
-        <div class="title">
-            <h1>Моя первая страница</h1>
+        <div class="container">
+            <div class="title">
+                <h1>Моя первая страница</h1>
+            </div>
+            <div class="subtitle">
+                <h2>Кратко обо мне</h2>
+            </div>
+            <div class="text">
+                <p>Я Федя, и я водолаз. Решил сменить професию, и для этого начал изучать PHP.</p>
+                <p>Живу во Владивостоке. Люблю поспать.</p>
+            </div>
+            <div class="subtitle">
+                <h2>Чему я хочу научиться</h2>
+            </div>
+            <div class="text">
+                <p>На этом курсе я хотел бы научиться создавать сайты с нуля и програмировать на <a href="https://www.php.net/"><img class="text__img" src="./images/pngwing.com.png" alt="PHP"></a></p>
+            </div>
         </div>
-
-        <div class="subtitle">
-            <h2>Кратко обо мне</h2>
-        </div>
-        <div class="text">
-            <p>Я Федя, и я водолаз. Решил сменить професию, и для этого начал изучать PHP.</p>
-            <p>Живу во Владивостоке. Люблю поспать.</p>
-        </div>
-
-        <div class="subtitle">
-            <h2>Чему я хочу научиться</h2>
-        </div>
-        <div class="text">
-            <p>На этом курсе я хотел бы научиться создавать сайты с нуля.</p>
-        </div>
-
-
-
-
     </main>
     <!-- main -->
-
     <footer class="footer">
-
+        <div class="container">
+            <span>&copy;&nbsp;Федя 2021 г.</span>
+        </div>
     </footer>
     <!-- footer -->
 
